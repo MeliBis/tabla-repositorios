@@ -23,21 +23,90 @@
             <h4>Lista de repositorios</h4></div> 
     </div>
 </section>
-<!-- habilidades -->
+<!-- aprende -->
 <section class="skills" id="skills">
     <div class="content">
-        <div class="title"><span>Educacion</span></div>
         <div class="skill-details">
-        <div class="left">
-            <div class="topic">Mis habilidades son:</div>
-<!--             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nihil sapiente dolores est ipsam corporis, expedita atque quo voluptate magni? Tenetur, consectetur nemo.</p>
- -->        <div class="experience">
-<!--             <div class="exp">10 años <br>de experiecia</div>
- -->        </div>
-        </div>
         <div class="boxes">
-     
+            <ul class="nav nav-tabs " id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">Aprender</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Landing page</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Páginas web</button>
+                </li>
+           
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <table class="table">
+                        <thead>
+                          <tr class="table-success ">
+                            <th scope="col">Nombre de repositorio</th>
+                            <th scope="col">Link del repositorio</th>
+                            <th scope="col">Tecnológias utilizadas</th>
+                            <th scope="col">Descripción</th>
+                            <th scope="col">Imagen muestra</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Fusión</th>
+                            <td>https://github.com/MeliBis/fusion</td>
+                            <td>HTML - CSS - JS</td>
+                            <td>Página web de tienda de productos con componentes <br> como login,  lista de productos, creacion de usuario, <br> lista productos comprados</td>
+                            <td>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                  
+                                    </div>
+                                  </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Catattack</th>
+                            <td>https://github.com/MeliBis/catattack</td>
+                            <td>Python - pygame</td>
+                            <td>Juego básico para eliminar enemigos</td>
+                            <td>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./assets/catattack.png"  class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                  
+                                    </div>
+                                  </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Lógica</th>
+                            <td colspan="2">https://github.com/MeliBis/logica</td>
+                            <td>JavaScript</td>
+                            <td>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="..." class="card-img-top" alt="..." >
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                  
+                                    </div>
+                                  </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
 
+
+                <!-- LandingPage -->
+                <div class="tab-pane fade mt-1" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    
+                    <ul class="list-group list-group-flush">
+              <div class="boxes">
             <ul class="nav nav-tabs " id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                   <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">Aprender</button>
@@ -87,7 +156,7 @@
                             <td>Juego básico para eliminar enemigos</td>
                             <td>
                                 <div class="card" style="width: 18rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="./assets/catattack.png"  class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h5 class="card-title">Card title</h5>
                                   
@@ -114,27 +183,70 @@
                 </div>
 
 
-                <!-- LandingPage -->
-                <div class="tab-pane fade mt-1" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                    
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item mt-2">Photoshop <span class="blockquote-footer">80%</span></li> 
-                        <li class="list-group-item mt-2">Premiere <span class="blockquote-footer">75%</span></li> 
-                        <li class="list-group-item mt-2">Illustrator <span class="blockquote-footer">40%</span></li> 
-                        <li class="list-group-item mt-2">After Efects <span class="blockquote-footer">25%</span></li> 
-                        <li class="list-group-item mt-2">Inglés <span class="blockquote-footer">55%</span></li> 
-
                       </ul>
                 </div>
-                <!-- hobbies -->
+                <!-- paginas web -->
                 <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item mt-2">Canto</li>
-                        <li class="list-group-item">Inversión</li>
-                        <li class="list-group-item">Aprender idiomas</li>
-                        <li class="list-group-item">Jugar videojuegos (zelda)</li>
-                        <li class="list-group-item">Aprender física</li>
-                      </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <table class="table">
+                            <thead>
+                              <tr class="table-warning ">
+                                <th scope="col">Nombre de repositorio</th>
+                                <th scope="col">Link del repositorio</th>
+                                <th scope="col">Tecnológias utilizadas</th>
+                                <th scope="col">Descripción</th>
+                                <th scope="col">Imagen muestra</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Fusión</th>
+                                <td>https://github.com/MeliBis/fusion</td>
+                                <td>HTML - CSS - JS</td>
+                                <td>Página web de tienda de productos con componentes <br> como login,  lista de productos, creacion de usuario, <br> lista productos comprados</td>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                      
+                                        </div>
+                                      </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Catattack</th>
+                                <td>https://github.com/MeliBis/catattack</td>
+                                <td>Python - pygame</td>
+                                <td>Juego básico para eliminar enemigos</td>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/catattack.png"  class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                      
+                                        </div>
+                                      </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                                <td>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                      
+                                        </div>
+                                      </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
                 </div>
                 <!-- experoiencia -->             
                 <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
